@@ -3,8 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "start": "node server.js",
-    "postinstall": "npm run build",
-
+    
     "ng": "ng",
     "build": "babel src --out-dir dist --copy-files",
     "test": "ng test",
