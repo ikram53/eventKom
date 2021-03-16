@@ -1,0 +1,36 @@
+.st38 {
+    font-family: 'Great Vibes', cursive !important;
+}
+html {
+    height: 100%;
+  }
+  body {
+    min-height: 100%;
+  }
+
+.swing {
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center -20px;
+    float:left;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+
+@keyframes swing {
+    0% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
+}
+
+
+
+
+#Objects .st44 path {
+  stroke:#37233c;
+  stroke-width:14px;
+  fill:#0bfd36;
+}
+
+#Objects .design .line
+{
+  stroke: #ffffff;
+    stroke-width: 1px;
+}
