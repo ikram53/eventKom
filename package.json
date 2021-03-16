@@ -2,7 +2,8 @@
   "name": "event-web-site",
   "version": "0.0.0",
   "scripts": {
-    "start": "node server.js",
+    
+    "start": "babel-node server.js",
     "postinstall": "ng build --output-path event-web-site --aot --prod",
     "ng": "ng",
     "build": "babel src --out-dir dist --copy-files",
@@ -27,6 +28,7 @@
     "@angular/platform-browser": "~11.2.5",
     "@angular/platform-browser-dynamic": "~11.2.5",
     "@angular/router": "~11.2.5",
+    "babel-cli": "^6.26.0",
     "express": "^4.17.1",
     "path": "^0.12.7",
     "rxjs": "~6.6.0",
